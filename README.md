@@ -33,6 +33,6 @@ Builds the app for production to the `build` folder.\
 * You can click on skip option to skip to login page 
 * Repeat the proccess in the next page also
 * You reach login page , you can move to register page using the link provided below the form
-* Clicking on login / register button takes you to goals page
+* Clicking on login takes you to home page and  register button takes you to goals page
 * Clicking on confirm take you to home page 
-* From home page clicking on the graph? streak button on the buttom navbar takes you to your exercise streak page
+* From home page clicking on the graph/streak button on the buttom navbar takes you to your exercise streak page

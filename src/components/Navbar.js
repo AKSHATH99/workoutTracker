@@ -3,19 +3,19 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-around mt-10 shadow-lg">
+    <div className="flex justify-between  shadow-lg  bottom-0  bg-white h-14 max-w-screen-">
      <Link to= "/mainpage"> <img
-        className="w-10 h-10 p-1 "
+        className="w-10 h-10 p-1 ml- "
         src="https://www.iconpacks.net/icons/2/free-home-icon-2502-thumb.png"
       /></Link>
       <Link to = "schedule"><img
-        className="w-10 h-10 p-1"
+        className="w-10 h-10 p-1 ml-"
         src="https://cdn-icons-png.flaticon.com/512/3731/3731754.png"
       /></Link>
       {/* <img className='w-12 h-12 p-2 shadow-xl rounded-full -mt-5 bg-gradient-to-r from-blue-200 to-blue-300' src='https://www.iconsdb.com/icons/preview/white/search-3-xxl.png'/> */}
       {/* <img className='w-12 h-12 p-2 shadow-xl rounded-full -mt-5 bg-gradient-to-r from-blue-200 to-blue-300' src='search.png'/> */}
       <img
-        className="w-12 h-12 p-2 shadow-xl rounded-full -mt-5"
+        className="w-12 h-12 p-2 shadow-xl rounded-full -mt-5 ml-"
         // src="search.png"
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/VisualEditor_-_Icon_-_Search-big_-_white.svg/1200px-VisualEditor_-_Icon_-_Search-big_-_white.svg.png"
         style={{
@@ -26,7 +26,7 @@ const Navbar = () => {
 
       <img className="w-12 h-12 p-1" src="camera.png" />
       <img
-        className="w-10 h-10 p-1 "
+        className="w-10 h-10 p-1  ml-"
         src="https://icons.veryicon.com/png/o/miscellaneous/icon-8/my-account-5.png"
       />
     </div>

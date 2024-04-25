@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 
 const Android8 = () => {
   return (
-    <div>
+    <div className="w-screen h-auto" >
       <div className="flex">
         <img
           className="h-5 w-5 mt-10"
@@ -16,12 +16,12 @@ const Android8 = () => {
       </div>
 
       {/* graph */}
-      <div className="mt-10">
+      <div className="mt-10 ">
         <div className="flex text-sm">
           <p className="ml-36 ">Good job</p>
           <p className="ml-10">less than 3200kcal</p>
         </div>
-        <img className="w-96 ml-2" src="graph.png" />
+        <img className="w-[350px] ml-5" src="graph.png" />
       </div>
 
       <div className="flex bg-gradient-to-r from-blue-200 via-transparent to-transparent w-80 mt-10 ml-4 rounded-xl">
@@ -36,20 +36,20 @@ const Android8 = () => {
         <p className="font-Montserrat font-[600] leading-[19.5px] text-[16px] ml-6">
           Upcomming Workout
         </p>
-        <a href="#" className="ml-36 text-gray-400 underline">
+        <a href="#" className="ml-24 text-gray-400 underline">
           {" "}
           See more
         </a>
       </div>
 
-      <div className="mt-10 ml-5">
+      <div className="mt-10 ml-1">
         <Workoutlist workout="Full body workout" time="Today 3pm" />
         <Workoutlist workout="Upper body workout" time="4 feb  3:30pm" />
       </div>
 
       <div>
         <p className="ml-6">What Do You Want to Train</p>
-        <div className="bg-gradient-to-r from-blue-200 to-blue-300 flex  w-[343px] ml-6 rounded-lg">
+        <div className="bg-gradient-to-r from-blue-200 to-blue-300 flex  w-[343px]  ml-6 rounded-lg">
           <div className="ml-5 mt-5 font-Montserrat  leading-[14.63px] text-[12px] font-semibold">
             <p> Full Body Workout</p>
             <p className="mt-3 leading-[12.19px] text-[10px] font-semibold">Arms</p>

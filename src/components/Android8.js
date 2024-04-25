@@ -76,9 +76,9 @@ import Navbar from "./Navbar";
 const Android8 = () => {
   return (
     <div className="w-screen h-screen flex flex-col  items-center">
-      <div className="flex items-center"> {/* Added items-center */}
+      <div className="flex items-center -ml-14"> {/* Added items-center */}
         <img
-          className="h-5 w-5 mt-5 mr-10"
+          className="h-5 w-5 mt-5 mr-20"
           src="https://cdn-icons-png.flaticon.com/512/271/271220.png"
         />
         <h1 className="font-Montserrat text-[20px] mt-5 ml-2 font-[600] leading-[24.38px] w-[192px]  "> {/* Adjusted ml value */}

@@ -7,10 +7,10 @@ const Android9 = () => {
     <div className="mb-20">
       <div className="flex">
         <img
-          className="h-5 w-5 mt-10"
+          className="h-5 w-5 mt-10 ml-2"
           src="https://cdn-icons-png.flaticon.com/512/271/271220.png"
         />
-        <h1 className="font-Montserrat text-[20px] mt-9 ml-16 font-[600] leading-[24.38px] w-[192px]  ">
+        <h1 className="font-Montserrat text-[20px] mt-9 ml-24 font-[600] leading-[24.38px] w-[192px]  ">
           Workout Schedule
         </h1>
       </div>

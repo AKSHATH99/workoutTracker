@@ -4,12 +4,12 @@ const TimeSection = ({ time, task }) => {
   return (
     <div>
       <div className="flex justify-between items-center">
-        <p className="ml-8 font-Montserrat text-[16px] my-3 font-semibold leading-[14.63px]">
+        <p className="ml-6 font-Montserrat text-[16px] my-3 font-semibold leading-[14.63px]">
           {time}
         </p>
         {task ? (
           <div
-            className="rounded-xl h-[30px] text-sm text-white flex items-center justify-center leading-[14.63px]"
+            className="rounded-xl mr-9 h-[30px] text-sm text-white flex items-center justify-center leading-[14.63px]"
             style={{
               background:
                 "linear-gradient(270deg, #D3A4F4 0%, #E9B1E0 102.35%)",

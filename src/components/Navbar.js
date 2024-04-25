@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-white border border-black w-full flex justify-around items-center  sticky top-auto bottom-0">
+    <div className="navbar bg-white shadow-lg h-16  w-full flex justify-around items-center  sticky  bottom-0">
      <Link to= "/mainpage"> <img
         className="w-10 h-10 p-1 ml- "
         src="https://www.iconpacks.net/icons/2/free-home-icon-2502-thumb.png"
@@ -15,7 +15,7 @@ const Navbar = () => {
       {/* <img className='w-12 h-12 p-2 shadow-xl rounded-full -mt-5 bg-gradient-to-r from-blue-200 to-blue-300' src='https://www.iconsdb.com/icons/preview/white/search-3-xxl.png'/> */}
       {/* <img className='w-12 h-12 p-2 shadow-xl rounded-full -mt-5 bg-gradient-to-r from-blue-200 to-blue-300' src='search.png'/> */}
       <img
-        className="w-12 h-12 p-2 shadow-xl rounded-full -mt-5 ml-"
+        className="w-14 h-14 p-2 shadow-xl rounded-full -mt-16   ml-"
         // src="search.png"
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/VisualEditor_-_Icon_-_Search-big_-_white.svg/1200px-VisualEditor_-_Icon_-_Search-big_-_white.svg.png"
         style={{

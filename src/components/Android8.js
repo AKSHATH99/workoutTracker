@@ -42,13 +42,13 @@ const Android8 = () => {
         </a>
       </div>
 
-      <div className="mt-10 ml-3  ">
+      <div className="mt-10 ml-2  ">
         <Workoutlist workout="Full body workout" time="Today 3pm" />
         <Workoutlist workout="Upper body workout" time="4 feb  3:30pm" />
       </div>
 
-      <div>
-        <p className="ml-4 font-Montserrat leading-[19.5px] text-[16px] font-[600] mb-3">What Do You Want to Train</p>
+      <div className="phone: mb-64">
+        <p className="  ml-4 font-Montserrat leading-[19.5px] text-[16px] font-[600] mb-3">What Do You Want to Train</p>
         <div className="bg-gradient-to-r from-blue-200 to-blue-300 flex   w-[343px]  ml-4 rounded-lg">
           <div className="ml-5 mt-5 font-Montserrat  leading-[14.63px] text-[12px] font-semibold">
             <p> Full Body Workout</p>
@@ -61,7 +61,7 @@ const Android8 = () => {
           />
         </div>
       </div>
-      <Navbar/>
+      {/* <Navbar/> */}
     </div>
   );
 };

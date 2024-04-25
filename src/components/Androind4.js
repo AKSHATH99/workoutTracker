@@ -8,14 +8,14 @@ const Androind4 = () => {
     <div className="top-0">
       {/* <h1>Create an account</h1> */}
 
-      <div className="min-h-screen flex mt-36 justify-center bg-gray-50 pb-12 px-4 sm:px-6 lg:px-8">
+      <div className="min-h-screen flex mt-10 justify-center bg-gray-50 pb-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-md w-full ">
           <div>
             <h2 className="  font-semibold text-xl font-roboto  text-gray-900 ">
               Create an account
             </h2>
           </div>
-          <form className="mt-8 space-y-6">
+          <form className="mt-4 space-y-6">
             <div className="rounded-md shadow-sm -space-y-px">
               <div>
                 <label htmlFor="email-address" className="sr-only">
@@ -27,7 +27,7 @@ const Androind4 = () => {
                   type="email"
                   autoComplete="email"
                   required
-                  className=" h-14 appearance-none rounded-xl bg-gray-100   w-full py-2 px-3 text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                  className=" h-14 mt-6 appearance-none rounded-xl bg-gray-100   w-full py-2 px-3 text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                   placeholder="First Name"
                 />
               </div>
@@ -41,7 +41,7 @@ const Androind4 = () => {
                   type="password"
                   autoComplete="current-password"
                   required
-                  className=" h-14 appearance-none rounded-xl bg-gray-100   w-full py-2 px-3 text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm mt-3"
+                  className=" h-14 mt-6 appearance-none rounded-xl bg-gray-100   w-full py-2 px-3 text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm mt-3"
                   placeholder="Second Name"
                 />
               </div>
@@ -55,7 +55,7 @@ const Androind4 = () => {
                   type="password"
                   autoComplete="current-password"
                   required
-                  className=" h-14 appearance-none rounded-xl bg-gray-100   w-full py-2 px-3 text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm mt-3"
+                  className=" h-14 mt-6 appearance-none rounded-xl bg-gray-100   w-full py-2 px-3 text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm mt-3"
                   placeholder="Email"
                 />
               </div>
@@ -69,7 +69,7 @@ const Androind4 = () => {
                   type="password"
                   autoComplete="current-password"
                   required
-                  className="h-14 appearance-none rounded-xl bg-gray-100  w-full py-2 px-3 text-gray-900 placeholder-gray-500 focus:outline-none  sm:text-sm mt-3"
+                  className="h-14 mt-6 appearance-none rounded-xl bg-gray-100  w-full py-2 px-3 text-gray-900 placeholder-gray-500 focus:outline-none  sm:text-sm mt-3"
                   placeholder="Password"
                 />
               </div>
@@ -91,7 +91,7 @@ const Androind4 = () => {
             <div>
             <Link to="/goals"><button
                 type="submit"
-                className="w-full h-12 flex items-center justify-center py-2 px-4 border border-transparent rounded-xl shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                className="w-full mt-52 h-12 flex items-center justify-center py-2 px-4 border border-transparent rounded-xl shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 style={{
                   backgroundImage:
                     "linear-gradient(270deg, #7B91FF 0%, #95BEFF 100%)",

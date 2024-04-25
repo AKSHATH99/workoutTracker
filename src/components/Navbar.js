@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between  shadow-lg  bottom-0  bg-white h-14 max-w-screen-">
+    <div className="navbar bg-white border border-black w-full flex justify-around items-center  sticky top-auto bottom-0">
      <Link to= "/mainpage"> <img
         className="w-10 h-10 p-1 ml- "
         src="https://www.iconpacks.net/icons/2/free-home-icon-2502-thumb.png"

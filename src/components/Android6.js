@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Android6 = () => {
   return (
     <div>
-      <h1 className="text-[25px] ml-20 mt-12 font-bold font-Montserrat">
+      <h1 className="text-[25px] ml-16 mt-12 font-bold font-Montserrat leading-[24.38px]">
         What are your goals?
       </h1>
       <div className="mt-2">

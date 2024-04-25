@@ -7,10 +7,10 @@ const Android8 = () => {
     <div className="w-screen h-auto" >
       <div className="flex">
         <img
-          className="h-5 w-5 mt-10"
+          className="h-5 w-5 mt-5"
           src="https://cdn-icons-png.flaticon.com/512/271/271220.png"
         />
-        <h1 className="font-Montserrat text-[20px] mt-9 ml-16 font-[600] leading-[24.38px] w-[192px]  ">
+        <h1 className="font-Montserrat text-[20px] mt-5 ml-16 font-[600] leading-[24.38px] w-[192px]  ">
           Workout Tracker
         </h1>
       </div>
@@ -21,7 +21,7 @@ const Android8 = () => {
           <p className="ml-36 ">Good job</p>
           <p className="ml-10">less than 3200kcal</p>
         </div>
-        <img className="w-[350px] ml-5" src="graph.png" />
+        <img className="w-[350px] ml-3" src="graph.png" />
       </div>
 
       <div className="flex bg-gradient-to-r from-blue-200 via-transparent to-transparent w-80 mt-10 ml-4 rounded-xl">
@@ -32,7 +32,7 @@ const Android8 = () => {
         <p>You've burned fewer calories than yesterday. Time to get moving! </p>
       </div>
 
-      <div className="flex mt-14 ml-2">
+      <div className="flex mt-14 ml">
         <p className="font-Montserrat font-[600] leading-[19.5px] text-[16px] ml-6">
           Upcomming Workout
         </p>
@@ -42,14 +42,14 @@ const Android8 = () => {
         </a>
       </div>
 
-      <div className="mt-10 ml-1">
+      <div className="mt-10 ml-3  ">
         <Workoutlist workout="Full body workout" time="Today 3pm" />
         <Workoutlist workout="Upper body workout" time="4 feb  3:30pm" />
       </div>
 
       <div>
-        <p className="ml-6">What Do You Want to Train</p>
-        <div className="bg-gradient-to-r from-blue-200 to-blue-300 flex  w-[343px]  ml-6 rounded-lg">
+        <p className="ml-4 font-Montserrat leading-[19.5px] text-[16px] font-[600] mb-3">What Do You Want to Train</p>
+        <div className="bg-gradient-to-r from-blue-200 to-blue-300 flex   w-[343px]  ml-4 rounded-lg">
           <div className="ml-5 mt-5 font-Montserrat  leading-[14.63px] text-[12px] font-semibold">
             <p> Full Body Workout</p>
             <p className="mt-3 leading-[12.19px] text-[10px] font-semibold">Arms</p>
@@ -61,7 +61,7 @@ const Android8 = () => {
           />
         </div>
       </div>
-      {/* <Navbar/> */}
+      <Navbar/>
     </div>
   );
 };

@@ -10,10 +10,11 @@ import Navbar from './components/Navbar.js';
 import { Outlet } from 'react-router-dom';
 function App() {
  return(
+  <div >
   <div className='h-max'>
-
   <Outlet/>
-  <Navbar/>
+  {/* <Navbar/> */}
+  </div>
   {/* <Android2/> */}
 {/* <Androind4/> */}
 {/* <Androind5/> */}

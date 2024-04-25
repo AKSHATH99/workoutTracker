@@ -16,12 +16,12 @@ const Android9 = () => {
       </div>
 
       {/* Year and month  SECTION */}
-      <div className="flex ml-28">
+      <div className="flex ml-36">
         <img
           className="h-5 w-5 mt-10"
           src="https://cdn-icons-png.flaticon.com/512/271/271220.png"
         />
-        <p className="mt-10  mx-5 font-[Montserrat]  font-semibold leading-[14.63px]">
+        <p className="mt-10  mx-3 font-[Montserrat]  font-semibold leading-[14.63px]">
         Feb 2024
         </p>
         <img

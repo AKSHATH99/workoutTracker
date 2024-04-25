@@ -4,7 +4,8 @@
 
 // const Android8 = () => {
 //   return (
-//     <div className="w-screen h-auto" >
+//     // <div className="w-screen h-auto" >
+//     <div className="w-screen h-screen flex flex-col  items-center">
 //       <div className="flex">
 //         <img
 //           className="h-5 w-5 mt-5"
@@ -12,7 +13,7 @@
 //         />
 //         <h1 className="font-Montserrat text-[20px] mt-5 ml-16 font-[600] leading-[24.38px] w-[192px]  ">
 //           Workout Tracker
-//         </h1>
+//         </h1> 
 //       </div>
 
 //       {/* graph */}
@@ -74,10 +75,10 @@ import Navbar from "./Navbar";
 
 const Android8 = () => {
   return (
-    <div className="w-screen h-screen flex flex-col justify-center items-center">
+    <div className="w-screen h-screen flex flex-col  items-center">
       <div className="flex items-center"> {/* Added items-center */}
         <img
-          className="h-5 w-5 mt-5"
+          className="h-5 w-5 mt-5 mr-10"
           src="https://cdn-icons-png.flaticon.com/512/271/271220.png"
         />
         <h1 className="font-Montserrat text-[20px] mt-5 ml-2 font-[600] leading-[24.38px] w-[192px]  "> {/* Adjusted ml value */}
@@ -94,7 +95,7 @@ const Android8 = () => {
         <img className="w-[350px] ml-3" src="graph.png" />
       </div>
 
-      <div className="flex bg-gradient-to-r from-blue-200 via-transparent to-transparent w-80 mt-10 ml-4 rounded-xl">
+      <div className="flex bg-gradient-to-r from-blue-200 via-transparent to-transparent w-80 mt-10  rounded-xl">
         <img
           className="w-5 h-5 mt-5 m-5"
           src="https://pnglib.nyc3.cdn.digitaloceanspaces.com/uploads/2021/02/blue-alert-icon_60213a7793f67-680x680.png"
@@ -103,7 +104,7 @@ const Android8 = () => {
       </div>
 
       <div className="flex mt-14 ml">
-        <p className="font-Montserrat font-[600] leading-[19.5px] text-[16px] ml-6">
+        <p className="font-Montserrat font-[600] leading-[19.5px] text-[16px] ">
           Upcoming Workout
         </p>
         <a href="#" className="ml-24 text-gray-400 underline">
@@ -112,7 +113,7 @@ const Android8 = () => {
         </a>
       </div>
 
-      <div className="mt-10 ml-2  ">
+      <div className="mt-10 ml-4  ">
         <Workoutlist workout="Full body workout" time="Today 3pm" />
         <Workoutlist workout="Upper body workout" time="4 feb  3:30pm" />
       </div>
@@ -137,4 +138,5 @@ const Android8 = () => {
 };
 
 export default Android8;
+
 

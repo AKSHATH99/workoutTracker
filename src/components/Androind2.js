@@ -14,7 +14,7 @@ const Android2 = () => {
         <h1 className="phone:text-red-600 phone:ml-8 mt-10">GET BURN</h1>
         <p className='phone: ml-8 w-72' style={{size: "16px"}}>Let’s keep burning to achieve your goals, it hurts only temporarily, if you give up now you will be in pain forever</p>
         
-        <Link to  = "/goals"> <div
+        <Link to  = "/login"> <div
         className="rounded-full w-14 h-14 ml-72 flex justify-center items-center mt-24"
         style={{
           backgroundImage:

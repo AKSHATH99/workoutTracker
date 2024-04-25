@@ -89,7 +89,7 @@ const Androind4 = () => {
               </span>
             </div>
             <div>
-              <button
+            <Link to="/goals"><button
                 type="submit"
                 className="w-full h-12 flex items-center justify-center py-2 px-4 border border-transparent rounded-xl shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 style={{
@@ -98,7 +98,7 @@ const Androind4 = () => {
                 }}
               >
                 Create an Account
-              </button>
+              </button></Link>
             </div>
             <span className="flex items-center">
               <hr className="border-black flex-grow" />
